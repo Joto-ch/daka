@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:text="学号"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/xuehao"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="60dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:text="姓名"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/xingming"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="60dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:text="联系电话"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/dianhua"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="60dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:text="目前居住地"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_Options"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:text="居住地详细地址"
+                    android:gravity="center"/>
+                <EditText
+                    android:id="@+id/xiangxi"
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="60dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="假期是否离渝"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="假期有无接触湖北旅居的人员"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="假期有无接触过确证或疑似病例"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_3"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="现居住地有无确或疑似病例"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_4"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="体温是否正常"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_5"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="有无咳嗽,乏力,鼻塞,流涕,咽痛,腹泻等症状"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_6"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="本人及家庭成员是否为确证病例"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_7"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="本人及家庭成员是否为疑似病例"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_8"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="60dp"
+                    android:text="有无疾病史"
+                    android:gravity="center"/>
+                <Button
+                    android:id="@+id/btn_9"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="60dp"
+                    android:layout_below="@+id/tvTime"
+                    android:background="#0000"
+                    android:layout_margin="2dp"
+                    android:text="请选择"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:text="打卡"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
